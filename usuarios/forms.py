@@ -35,7 +35,7 @@ class CadastroForms(forms.Form):
                 'placeholder': 'Ex.: João Silva',
             }
         )
-    ),
+    )
     email=forms.EmailField(
         label='Email',
         required=True,
@@ -46,7 +46,7 @@ class CadastroForms(forms.Form):
                 'placeholder': 'Ex.: joaosilva@xpto.com',
             }
         )
-    ),
+    )
     senha_1=forms.CharField(
         label='Senha', 
         required=True, 
@@ -57,7 +57,7 @@ class CadastroForms(forms.Form):
                 'placeholder': 'Digite sua senha',
             }
         ),
-    ),
+    )
     senha_2=forms.CharField(
         label='Confirme a Senha', 
         required=True, 
